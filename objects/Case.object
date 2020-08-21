@@ -196,6 +196,27 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <businessProcesses>
+        <fullName>Test</fullName>
+        <description>Process For Logging Cases</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Working</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <fields>
@@ -426,6 +447,75 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Solution_Types__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution Types</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                    <label>Phone</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Person</fullName>
+                    <default>false</default>
+                    <label>Person</label>
+                </value>
+                <value>
+                    <fullName>Computer</fullName>
+                    <default>false</default>
+                    <label>Computer</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Structural</controllingFieldValue>
+                <valueName>Phone</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Structural</controllingFieldValue>
+                <valueName>Email</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Structural</controllingFieldValue>
+                <valueName>Person</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Structural</controllingFieldValue>
+                <valueName>Computer</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>SourceId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -552,6 +642,31 @@
         <label>US - Silver/Bronze</label>
         <queue>USSilverBronze</queue>
     </listViews>
+    <recordTypes>
+        <fullName>Testing_Case_Record_Type</fullName>
+        <active>true</active>
+        <businessProcess>Test</businessProcess>
+        <label>Testing Case Record Type</label>
+        <picklistValues>
+            <picklist>Solution_Types__c</picklist>
+            <values>
+                <fullName>Computer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Person</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
