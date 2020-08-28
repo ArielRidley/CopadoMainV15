@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AppMenu xmlns="http://soap.sforce.com/2006/04/metadata">
     <appMenuItems>
-        <name>EinsteinAssistant</name>
+        <name>EinsteinInsights</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>EinsteinInsights</name>
+        <name>Feed</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
@@ -29,6 +29,10 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Groups</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>Reports</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
@@ -46,10 +50,6 @@
     </appMenuItems>
     <appMenuItems>
         <name>LightningInstrumentation</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>RetailExecution</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
 </AppMenu>

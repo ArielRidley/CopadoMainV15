@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Color</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Colors</value>
+    </caseValues>
+    <fields>
+        <label><!-- Number of Colors --></label>
+        <name>Number_of_Colors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Color --></label>
+        <name>Primary_Color__c</name>
+        <picklistValues>
+            <masterLabel>Blus</masterLabel>
+            <translation><!-- Blus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Color --></label>
+        <name>Secondary_Color__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orange</masterLabel>
+            <translation><!-- Orange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purple</masterLabel>
+            <translation><!-- Purple --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Why were these colors chosen? --></label>
+        <name>Why_were_these_colors_chosen__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

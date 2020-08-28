@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Always</fullName>
+        <default>false</default>
+        <label>Always</label>
+    </customValue>
+    <customValue>
+        <fullName>Often</fullName>
+        <default>false</default>
+        <label>Often</label>
+    </customValue>
+    <customValue>
+        <fullName>Sometimes</fullName>
+        <default>false</default>
+        <label>Sometimes</label>
+    </customValue>
+    <customValue>
+        <fullName>Occasionally</fullName>
+        <default>false</default>
+        <label>Occasionally</label>
+    </customValue>
+    <customValue>
+        <fullName>Never</fullName>
+        <default>false</default>
+        <label>Never</label>
+    </customValue>
+    <masterLabel>Frequency</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -6,5 +6,7 @@
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>Colors__c</tabs>
+    <tabs>Technology__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

@@ -16,15 +16,28 @@
     <tabs>standard-Event</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Colors__c</tabs>
+    <tabs>Technology__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Colors__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Technology__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
         <mappings>
             <tab>standard-Campaign</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-CollaborationGroup</tab>
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>
@@ -34,6 +47,9 @@
         </mappings>
         <mappings>
             <tab>standard-Event</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Feed</tab>
         </mappings>
         <mappings>
             <tab>standard-File</tab>

@@ -6,5 +6,7 @@
     <label>LightningBolt</label>
     <navType>Standard</navType>
     <tabs>standard-LightningBoltHome</tabs>
+    <tabs>Colors__c</tabs>
+    <tabs>Technology__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

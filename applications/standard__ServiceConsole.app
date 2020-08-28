@@ -179,7 +179,15 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>Colors__c</tabs>
+    <tabs>Technology__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Colors__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Technology__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

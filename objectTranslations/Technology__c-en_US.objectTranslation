@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Technology</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Technologies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Little</masterLabel>
+            <translation><!-- Little --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Many</masterLabel>
+            <translation><!-- Many --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Some</masterLabel>
+            <translation><!-- Some --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours On Tech --></label>
+        <name>Hours_On_Tech__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phones --></label>
+        <name>Phones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Spent --></label>
+        <name>Time_Spent__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

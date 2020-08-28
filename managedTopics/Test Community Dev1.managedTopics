@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Test Community Dev1.Content:New Topic</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>New Topic</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>Test</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Test Community Dev1.Content:Test Topic</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Test Topic</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>Test</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Test Community Dev1.Featured:New Topic</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>New Topic</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>Test</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Test Community Dev1.Featured:Test Topic</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Test Topic</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>Test</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Test Community Dev1.Featured:Testing Topic</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Testing Topic</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Test Community Dev1.Navigational:New Topic</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>New Topic</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>Test</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Test Community Dev1.Navigational:Test Topic</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Test Topic</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>Test</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Test Community Dev1.Navigational:Testing Topic</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Testing Topic</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>
