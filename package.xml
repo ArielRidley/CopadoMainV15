@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.CustomerPriority__c</members>
-        <name>CustomField</name>
+        <members>AriRid2020__AppleWatch</members>
+        <members>AriRid2020__AppleWatchTest</members>
+        <name>ApexClass</name>
     </types>
     <types>
-        <members>Account.Account_Test_Record_Type</members>
-        <name>RecordType</name>
+        <members>AriRid2020__AppleWatch</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <name>Profile</name>
     </types>
     <version>49.0</version>
 </Package>
