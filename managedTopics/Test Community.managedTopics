@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Test Community.Content:Create Community Topics Here</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Create Community Topics Here</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>Create Community Topics Here!</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Test Community.Content:Test Topic</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Test Topic</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>Testing out Topic Feature</topicDescription>
+    </managedTopic>
+</ManagedTopics>
