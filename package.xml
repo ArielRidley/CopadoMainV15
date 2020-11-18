@@ -4,9 +4,5 @@
         <members>Account</members>
         <name>CustomObject</name>
     </types>
-    <types>
-        <members>Copado_Dev2_Environment</members>
-        <name>NamedCredential</name>
-    </types>
-    <version>49.0</version>
+    <version>50.0</version>
 </Package>
