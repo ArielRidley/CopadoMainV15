@@ -261,6 +261,30 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Active_del__c</fullName>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>AnnualRevenue</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -314,6 +338,19 @@
     <fields>
         <fullName>DunsNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Email_Name__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>A field for email addresses</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter in your email here. Follow this format: Name@Name.com</inlineHelpText>
+        <label>Email Name</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>true</unique>
     </fields>
     <fields>
         <fullName>Fax</fullName>
