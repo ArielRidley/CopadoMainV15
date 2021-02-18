@@ -2,11 +2,9 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Account</members>
+        <members>Animal__c</members>
+        <members>Case</members>
         <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Account-Special Account</members>
-        <name>Layout</name>
     </types>
     <version>50.0</version>
 </Package>
