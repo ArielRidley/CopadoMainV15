@@ -114,6 +114,17 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>Global_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Test</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Testing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Logging_Calls__c</fullName>
         <externalId>false</externalId>
         <label>Logging Calls</label>
