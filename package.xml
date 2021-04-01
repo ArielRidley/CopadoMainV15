@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Activity.Global_Test__c</members>
+        <members>Account.Test_3__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Testing</members>
-        <name>GlobalValueSet</name>
+        <members>Account</members>
+        <name>CustomObject</name>
     </types>
     <types>
-        <members>Event.Event_Record_Type</members>
-        <name>RecordType</name>
+        <members>Account-Broken Layout xml file</members>
+        <name>Layout</name>
     </types>
     <version>51.0</version>
 </Package>
