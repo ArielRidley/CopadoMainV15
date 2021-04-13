@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Activity.Global_Test__c</members>
+        <members>Event.Subject</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -9,7 +9,7 @@
         <name>GlobalValueSet</name>
     </types>
     <types>
-        <members>Event.Event_Record_Type</members>
+        <members>Event.Testing_Case</members>
         <name>RecordType</name>
     </types>
     <version>51.0</version>
