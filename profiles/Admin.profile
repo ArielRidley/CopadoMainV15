@@ -2234,10 +2234,6 @@
         <recordType>Account.Account_Test_Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.Add_Picklists</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>AccountBrand-Account Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
