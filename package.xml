@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Testing2021</members>
-        <name>CustomPermission</name>
+        <members>Solar_Panel__c</members>
+        <name>CustomObject</name>
     </types>
-    <types>
-        <members>Testing</members>
-        <name>PermissionSet</name>
-    </types>
-    <version>51.0</version>
+    <version>52.0</version>
 </Package>
